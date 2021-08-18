@@ -1,0 +1,325 @@
+body{
+  font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+  margin:0;
+  padding:0;
+  width:100%;
+}
+.wrapper {
+  width:100%;
+  overflow:hidden;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width:1100px;
+  padding:0 15px;
+  margin:0 auto;
+}
+
+.main_imgBox {
+  height: 750px;
+  margin-top:140px;
+  overflow: hidden;
+  position: relative; }
+
+.main_img {
+  z-index:10;
+  opacity: 0;
+  width: 100%;
+  height: 750px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-animation: anime 36s 0s infinite;
+  animation: anime 36s 0s infinite; 
+}
+.main_img:nth-of-type(2) {
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s; }
+
+.main_img:nth-of-type(3) {
+  -webkit-animation-delay: 12s;
+  animation-delay: 12s; }
+
+.main_img:nth-of-type(4) {
+  -webkit-animation-delay: 18s;
+  animation-delay: 18s; }
+
+.main_img:nth-of-type(5) {
+  -webkit-animation-delay: 24s;
+  animation-delay: 24s; }
+
+.main_img:nth-of-type(6) {
+  -webkit-animation-delay: 30s;
+  animation-delay: 30s; 
+} 
+@keyframes anime {
+  0% {
+        opacity: 0;
+    }
+    8% {
+        opacity: 1;
+    }
+    17% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+        transform: scale(1.2) ;
+         z-index:9;
+    }
+    100% { opacity: 0 }
+}
+.header-top{
+  font-size:40px;
+  margin-top:10px;
+}
+.header-left{
+  float:left;
+  font-size: 13px;
+  color:rgb(92, 55, 109, 0.8);
+}
+.header-left p{
+  padding:0 25px;
+}
+.header-right{
+  margin-top:8px;
+  float:right;
+}
+.header-right image{
+
+}
+.header-right p{
+  margin-top:5px;
+}
+.top-header{
+  height: 100px;
+  width: 100%;
+  background-image:url("https://www.photolibrary.jp/mhd1/img457/450-2016040215211030066.jpg") ;
+  background-size: cover;
+  /* positionプロパティをfixedに、topを0に指定してください */
+  position:fixed;
+  top:0;
+  z-index:10;
+  text-align: center;
+  }
+  
+  header{
+    margin-bottom:0;
+    padding-bottom:0;
+  }
+
+.menuber{
+  height:40px;
+  background-color:rgb(233, 196, 213);
+  text-align:center;
+  margin-top:100px;
+  padding-top:1px;
+}
+
+.header-menu li{
+  float:left;
+  list-style:none;
+  padding-top:1px;
+  width:18%;
+  line-height:1px;
+  border-right:1px solid gray;
+}
+.btn{
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color:rgb(233, 196, 213);
+  opacity: 0.8;
+  transition:all, 1s;
+  height:20px;
+}
+.btn:hover{
+  opacity:1;
+  background-color:hotpink;
+}
+.access{
+  font-size:15px;
+}
+.price{
+  letter-spacing:5px;
+}
+.home{
+  padding-right:5px;
+}
+.stuff{
+  margin-left:30px;
+}
+.top-wrapper{
+  margin:0 auto;
+  background-color:rgb(248, 239, 244);
+  padding-top:30px;
+  height:1100px;
+}
+.top-wrapper h1{
+  text-align:center;
+  border:1px solid rgb(238, 106, 106);
+  padding:20px 50px;
+  margin:50px 0 80px 0;
+  font-family:serif;
+  background-color:rgb(245, 243, 231);
+
+}
+.top-wrapper span{
+  color:rgb(230, 205, 66);
+}
+.card{
+  display:flex;
+  text-align:left;
+}
+.top-wrapper p{
+  width:700px; 
+  line-height:40px;
+  letter-spacing:4px;
+  font-weight:bold;
+}
+
+.treatment-type h2{
+  color:rgb(170, 163, 121);
+  font-size:50px;
+  text-align:center;
+  margin-top:80px;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWO4DX9yWZuhSU1SPJpHrS1CYdjKS7-6_lWQ&usqp=CAU");
+  background-size: cover;
+}
+
+.treatment-type ul{
+  margin-top:10px;
+  list-style:none;
+
+}
+.treatment-type li{
+  font-size:20px;
+  letter-spacing:5px;
+  line-height:60px;
+  float:left;
+  width:25%;
+  padding-bottom:10px;
+}
+.lessons{
+  margin:0 auto;
+}
+.lesson{
+  float:left;
+  width:25%;
+  position:relative;
+  font-size:25px;
+}
+
+.two{
+  position:absolute;
+  top:35px;
+  left:90px;
+}
+.three{
+  position:absolute;
+  top:35px;
+  left:80px;
+}
+.four{
+  position:absolute;
+  top:35px;
+  left:70px;
+}
+.six{
+  position:absolute;
+  top:35px;
+  left:40px;
+}
+
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.info {margin: 1em auto;padding: 0 1.5em;border: 1px solid #ccc;text-align: left;font-size: 1em;line-height: 1.3;color: #444;overflow: auto;width: 90%;height: 10em;background-color: #fcfcfc;}
+.info dl {padding: 0.5em 0;border-bottom: 1px solid #ccc;}
+.info dt {padding-bottom: 0;width: 6em;}
+@media screen and (min-width: 480px) {
+.info dt {clear: left;float: left;}
+.info dd {margin-left: 0.5em;}
+}
+
+.information{
+  border-top:1px solid rgb(250, 18, 161);
+  padding-bottom:80px;
+}
+
+.whats-new h2{
+  text-align:center;
+  margin-top:100px;
+}
+
+.message-wrapper{
+  padding-top:20px;
+  padding-bottom:10px;
+  height:390px;
+  background-color:rgb(248, 239, 244);
+}
+.message-left{
+  float:left;
+  width:50%;
+  text-align:center;
+}
+.message-left p{
+  line-height:3px;
+}
+.red-number{
+  font-size:30px;
+}
+.message-right{
+  float:right;
+  width:50%;
+  text-align:center;
+  border-left:1px solid gray;
+}
+.traffic{
+  margin-top:30px;
+}
+.message-text{
+  padding: 0 30px;
+}
+
+.message-text span{
+  font-weight:bold;
+}
+
+.train-text{
+  width:50%;
+  float:left;
+  text-align:center;
+  padding-right:20px;
+  
+}
+.bus-text{
+  width:50%;
+  float:right;
+  text-align:center;
+  padding-left:20px;
+  border-left:1px solid gray;
+}
+.address{
+  font-size:20px;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+}
+.foooter{
+  height:100px;
+  background-color:rgb(238, 231, 231);
+}
+.foooter p{
+  padding-top:45px;
+  text-align:center;
+  font-family:serif;
+  font-size:16px;
+}
