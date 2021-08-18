@@ -1,0 +1,1 @@
+# Hatsudai-shika
