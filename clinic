@@ -1,0 +1,145 @@
+# Hatsudai-shika
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="utf-8">
+    <title>初台歯科</title>
+  </head>
+  <body>
+  <div class="wrapper">
+    <div class="top-header">
+      <div class="container">
+        <div class="header-left">
+          <p>最先端の治療を取り入れ、すべてのお子様に安心を​保育士のいる歯科医院</p>
+          <h1 class="header-top">初台歯科医院(医療法人社団臨学会)</h1>
+        </div>
+        <div class="header-right">
+          <div class="image-top">
+           <image src="https://static.wixstatic.com/media/db3dce_ebe7adbc2d734ecb97fa46d2e979dbd0~mv2.jpg/v1/fill/w_371,h_126,al_c,lg_1,q_80/banner_tel4.webp" height="60px" width="300px"></image>
+          </div>
+          <div class="number-top">
+            <p>お問い合わせは03-3377-8003</p>
+          </div>
+        </div>
+      </div>
+      <div class="menuber">
+        <div class="top-menu">
+          <div class="header-menu">
+            <ul>
+              <li><a class="btn home" href="#">ホーム</a></li>
+              <li><a class="btn clinic" href="#">クリニック案内</a></li>
+              <li><a class="btn stuff" href="#">スタッフ紹介</a></li>
+              <li><a class="btn price" href="#">料金表</a></li>
+              <li><a class="btn access" href="#">アクセス・お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="clinic-wrapper">
+        
+            <div class="clinic-menu">
+                <div class="clinic-top">
+                    <h2>クリニック案内</h2>                   
+                </div>
+                <div class="clinic-img">     
+                    <div class="text-left">
+                        <h3>受付</h3>
+                        <img class="img-right" src="https://static.wixstatic.com/media/db3dce_62308ca8aec54adab65d1c8c397a8940~mv2.jpg/v1/fill/w_210,h_210,al_c,lg_1,q_80/CIMG01531-150x150.webp" height="300px" width="400px">
+                        <img class="img-right" src="https://static.wixstatic.com/media/db3dce_977c9611abe64c7cb6a3ae58cdd45603~mv2.jpg/v1/fill/w_210,h_210,al_c,lg_1,q_80/CIMG0149-150x150.webp" height="300px" width="400px">  
+                    </div>               
+                    <div class="text-right">
+                        <h3>診察所</h3>
+                        <img class="img-left" src="https://static.wixstatic.com/media/db3dce_0aae7429ac2d40a4b3b9fdced7f7fe2d~mv2.jpg/v1/fill/w_210,h_210,al_c,lg_1,q_80/13-150x150.webp" height="300px" width="400px">
+                        <img class="img-left" src="https://static.wixstatic.com/media/db3dce_9d76472e03124855a38299b64b403c77~mv2.jpg/v1/fill/w_210,h_210,al_c,lg_1,q_80/14-150x150.webp" height="300px" width="400px">
+                     </div>
+                    <div class="text-left">
+                        <h3>レントゲン室</h3>
+                        <div class="roentgen">
+                            <p>当院は最先端の被ばく量の少ない歯科用CT RevoluXを導入しています。このCT装置は、<br>歯やあごの骨を立体的に細かく診断できるだけではなく、従来の歯科用CTではできなかった骨質（骨の固さ）の診断を正確にすることができる最先端の<br>装置です。デジタルCTレントゲン
+                                ＊患者様に負担の少ない撮影～わずか20秒
+                                ＊患者様に優しい<br>低被ばく
+                                CT撮影には被ばくが伴いますが当院の<br>歯科用CTは低被ばくを実現した装置です。医科用CT装置の１５分の１程度の被ばくで安心してご撮影いただけます。</p>
+                            <img src="https://static.wixstatic.com/media/db3dce_fa07f2ebe48c4c6a8ed54681803824ee~mv2.jpg/v1/fill/w_210,h_350,al_c,lg_1,q_80/hatsudai32.webp" height="325px" width="270px">
+                         </div>
+                    </div>
+                    <div class="text-right">
+                        <h3>レーザー治療</h3>
+                        <div class="laser">
+                            <p>無痛治療として炭酸ガス（CO2）レーザーは、歯科でもっとも多く使用されているといわれています。外科手術に使用するレーザーでは中出力レーザーです。
+                                波長は106μｍ（マイクロメートル）で近赤外線領域の光です。
+                                炭酸ガスレーザーの得意な効果としては、
+                                <span><br>１、痛みをとる。　　　　
+                                <br>２、傷・炎症を速く治す。
+                                <br>３、免疫機能を高める。　</span></p>
+                            <img src="https://static.wixstatic.com/media/db3dce_6f910f9d4daa47ff86073be5a72e650c~mv2.jpg/v1/fill/w_210,h_210,al_c,lg_1,q_80/CIMG0132-150x150.webp" height="325px" width="270px">
+                        </div>
+                    </div>
+                    <div class="text-left">
+                        <h3>笑気麻酔</h3>
+                        <div class="anesthesia">
+                            <p>保険適用にもされている笑気ガス鎮静法とは<br>不安や恐怖心の強い患者さまを<br>ストレスから守り、精神を安静させる事<br>により、治療の恐怖から解放し、歯科診療を<br>促す治療方法です。 笑気ガスは、無色で<br>わずかに甘い香りのある無刺激性のガスです。<span><br><br>希望の方はスタッフ又はドクターにお声掛けください</span></p>
+                            <img src="https://static.wixstatic.com/media/db3dce_5843f3938863428e8f01d0d13657f6dc~mv2.jpg/v1/fill/w_210,h_210,al_c,lg_1,q_80/NEC_0222-150x150.webp" height="325px" width="270px">
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <h3>高周波治療器</h3>
+                        <div class="high-frequency">
+                            <p>高周波治療とは高周波電流を使用し、<br>生体との接触点において発熱する原理を<br>医学的に応用した治療法を言います。<br>代表的なものに電気メス、根管治療、<br>止血があげられます。</p>
+                            <img src="https://static.wixstatic.com/media/db3dce_f7d617268b71451b8980c108cd575be8~mv2.jpg/v1/fill/w_224,h_171,al_c,lg_1,q_80/IMG_61491.webp" height="325px" width="270px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+    </div>
+    <div class="message-wrapper">
+        <div class="container">
+          <div class="messages">
+           <div class="message-left">
+             <h3 class="red-number">📞03-3377-8003</h3>
+             <p>お気軽にお電話ください</p>
+             <h3>診療時間</h3>
+             <p>10:00〜13：00  /
+                 15:00〜19:00</p>
+               <p>(休診日　木・日/祝日 (祝日のある週は木曜日診療)</p>
+               <image src="https://static.wixstatic.com/media/db3dce_ebe7adbc2d734ecb97fa46d2e979dbd0~mv2.jpg/v1/fill/w_371,h_126,al_c,lg_1,q_80/banner_tel4.webp" height="60px" width="300px"></image>
+           </div>
+           <div class="message-right">
+             <h2>住所</h2>
+             <p class="address">東京都渋谷区本町2-33-2 2F</p>
+             <h2 class="traffic">🚋交通アクセス</h2>
+             <div class="message-text">
+               <div class="train-text">
+                 <h2>電車</h2>
+                 <p><span>初台駅 京王新線初台駅</span></p>
+                 <p>(新宿南口、西口より一つ目）</p>
+               </div>
+               <div class="bus-text">
+                 <h2>バス</h2>
+                 <p>新宿西口発　京王バス <p>中野車庫行き</p>
+                 <p><span>幡ヶ谷不動尊</span>下車　徒歩<span>5</span>分</p></p>　
+                 
+               </div>
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="foot">
+            <img src="http://www.hayama-dentalclinic.com/wp-content/themes/temp01_07/images/shared/top_foot_05.png" height="150px" width="800px">
+          </div>
+        </div>
+      </footer>
+      <div class="foooter">
+        <div class="container">
+          <p>医療法人社団　臨学会　初台歯科医院</p>
+        </div>
+      </div>
+     </body>
+   </html>
